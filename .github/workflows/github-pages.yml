@@ -13,12 +13,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install and Build
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '17'
+          cache: 'npm'
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.0'
+          bundler-cache: true
+
+      - name: Build
         run: |
-          npm install
           npm run build
-          gem install bundler
-          bundle install
           bundle exec jekyll build
 
       - name: Deploy
