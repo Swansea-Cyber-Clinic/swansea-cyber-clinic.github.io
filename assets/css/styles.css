@@ -1,0 +1,118 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 40px auto;
+  width: 80%;
+  color: black;
+}
+
+a {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  color: black;
+}
+
+a:hover, a.current {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-size: 3em;
+}
+h1.logo {
+  color: white;
+  background-color: black;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+ul.comma-list {
+  display: inline;
+  padding-left: 0;
+}
+ul.comma-list li {
+  display: inline;
+}
+ul.comma-list li::after {
+  content: ", ";
+}
+
+header, footer {
+  font-size: 0.8em;
+}
+
+nav ul {
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+figure, div.info-box {
+  border: 1px dashed;
+  border-radius: 5px;
+  padding: 4px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+figure img, div.info-box img {
+  max-width: 75%;
+  max-height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  border-top: 1px dashed;
+  font-size: small;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+ol.bibliography {
+  padding-left: 0;
+}
+ol.bibliography li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+ol.bibliography li span {
+  overflow-wrap: break-word;
+}
+
+iframe.responsive-iframe {
+  width: 100%;
+  height: 100%;
+}
+
+p.same-line {
+  display: inline-block;
+}
+
+div.form-controls * {
+  margin-bottom: 10px;
+  margin-right: 2px;
+}
+
+/*# sourceMappingURL=styles.css.map */
