@@ -1,0 +1,31 @@
+title: Swansea Cyber Clinic
+baseurl: ""
+url: ""
+
+plugins:
+  - jekyll-figure
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: bibliography.bib
+  order: ascending
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.lock.json
+  - package.json
+  - webpack.config.babel.js
+  - src
+  - .editorconfig
+  - .eslintignore
+  - .eslintrc.js
+  - README.md

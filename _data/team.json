@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Dr Sara Correia-Hopkins",
+    "short_name": "Sara",
+    "pronoun1": "her",
+    "pronoun2": "her",
+    "twitter": "https://twitter.com/SGCorreia",
+    "description": "Principal Investigator",
+    "orcid": "0000-0003-0261-6872",
+    "research_interests": "fraud, computer crime, victims of crime, tech law, policing, and data ethics"
+  },
+  {
+    "name": "Dr Nnenna Ifeanyi-Ajufo",
+    "short_name": "Nnenna",
+    "pronoun1": "her",
+    "pronoun2": "her",
+    "description": "Researcher"
+  },
+  {
+    "name": "Dr Stuart Nicholson",
+    "short_name": "Stuart",
+    "pronoun1": "him",
+    "pronoun2": "his",
+    "description": "Researcher",
+    "orcid": "0000-0002-2034-9117",
+    "research_interests": "human-computer interaction, policing, and community technology"
+  },
+  {
+    "name": "Dr Martin Porcheron",
+    "short_name": "Martin",
+    "pronoun1": "him",
+    "pronoun2": "his",
+    "link": "https://www.porcheron.uk",
+    "twitter": "https://twitter.com/MPorcheron",
+    "description": "Researcher",
+    "orcid": "0000-0003-3814-7174",
+    "research_interests": "human-computer interaction, ethnomethodology, and conversational user interfaces"
+  },
+  {
+    "name": "Dr Leigh Clark",
+    "short_name": "Leigh",
+    "pronoun1": "him",
+    "pronoun2": "his",
+    "link": "https://lmhclark.com/",
+    "twitter": "https://twitter.com/lmhclark",
+    "description": "Researcher",
+    "orcid": "0000-0002-9237-1057",
+    "research_interests": "human-computer interaction and conversational user interfaces"
+  },
+  {
+    "name": "Genevieve Clifford",
+    "short_name": "Genevieve",
+    "pronoun1": "her",
+    "pronoun2": "her",
+    "link": "https://home.becquerel.me",
+    "description": "Research Assistant",
+    "research_interests": "(queer/feminist) human-computer interaction, applied transgender studies, and community technology"
+  }
+]
