@@ -12,3 +12,6 @@ Given that Orator has the functionality to export a relational database in JSON 
 
 ## How has the website changed?
 This website is created using [Jekyll](https://jekyllrb.com/), a static site generator written in Ruby. It is used by GitHub by default to generate documentation for project pages if required, and is widely used to easily generate simple websites. Most parts of this website are written in Markdown, which Jekyll transforms into custom-styled HTML. While Jekyll is relatively simple to use, it only generates static pages. Vue.js has therefore been retained for the interactive service mapping portion of the website, using the [webpack](https://webpack.js.org/)-based [integration of Vue.js and Jekyll described by Christopher Murphy](https://hackwild.com/article/jekyll-ssg-with-vue-single-file-components/).
+
+## Licenses
+The source code of this website is licensed under the [MIT License](https://github.com/swansea-cyber-clinic/swansea-cyber-clinic.github.io/blob/main/LICENSE). The underlying material (data used for the service mapping, and information about the project and team) are not yet licensed for use, please [contact us](mailto:cyberclinic@swansea.ac.uk) if you'd like to use this data for yourself.
