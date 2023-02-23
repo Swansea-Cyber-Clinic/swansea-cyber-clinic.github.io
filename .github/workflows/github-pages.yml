@@ -1,0 +1,29 @@
+name: Build and deploy the Swansea Cyber Clinic website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  github-pages:
+    concurrency: ci-${{ github.reference }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install and Build
+        run: |
+          npm install
+          npm build
+          bundle install
+          bundle exec jekyll build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        with:
+          branch: gh-pages
+          folder: _site
+
+      
