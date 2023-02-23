@@ -16,7 +16,7 @@ jobs:
       - name: Install and Build
         run: |
           npm install
-          npm build
+          npm run build
           bundle install
           bundle exec jekyll build
 
