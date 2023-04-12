@@ -15,17 +15,3 @@ We've published a number of research outputs that we'd be delighted to share wit
 Need to find victim support services in Wales? Use our [service mapping](/service-mapping).
 
 {% endfigure %}
-
-<!-- {% figure %}
-**Report on victim services in South Wales**
-
-Our main report produced in collaboration with our key project partners, detailing current challenges for victim services and future interventions.
-
-{% endfigure %}
-
-{% figure %}
-**Victim stories**
-
-A set of short animated stories highlighting how cybercrimes harm victims.
-
-{% endfigure %} -->
