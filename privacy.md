@@ -12,7 +12,7 @@ The following is adopted from the template provided by the [Horizon 2020 Framewo
 
 ### Contact details
 
-This website was created and deployed by the Swansea Cyber Clinic as the team's website. This privacy policy explains how your personal data is collected when you interact with The Information Exchange. The words 'we' and 'our' refer to the members of the team of the [Swansea Cyber Clinic](mailto:cyberclinic@swansea.ac.uk).
+This website was created and deployed by the Swansea Cyber Clinic as the team's website. This privacy policy explains how your personal data is collected when you interact with our website. The words 'we' and 'our' refer to the members of the team of the [Swansea Cyber Clinic](mailto:cyberclinic@swansea.ac.uk).
 
 ### What data do we collect?
 
